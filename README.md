@@ -1,18 +1,58 @@
-|||NOW UPDATED TO 1.8!!!!!
+# EaglercraftX
+#### smashed together by [ayunami2000](https://github.com/ayunami2000)
+##### and [EaglercraftX](https://gitlab.com/lax1dude/eaglercraftx-1.8) developed by [lax1dude](https://github.com/lax1dude)
 
-online version is https://svaaps.github.io/eaglercrafthtml/
-(online version saves individual worlds too and works just as normal as the local version but you don't have to download anything)
-if you wanna play eaglercraft locally, its in releases
+## How do I use this?
+Basically, fork it, and then press the big Run button on Replit, and it will run your very own EaglercraftX (Eaglercraft 1.8) server!
 
-you can also clone this to make your own copy of the web version of eaglercraft!
+## What is it doing?
+It is probably compiling the latest, updated client for you. This may take a while (~15 minutes, maybe more)
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/svaaps/eaglercrafthtml)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsvaaps%2Feaglercrafthtml%2F)
+## How do I switch between consoles? / Console help
+Simply click on the console you want to type in. Alternatively, press `CTRL+B`, release, then press `;`.
 
+To jump back to the bottom after scrolling, press `q`.
 
-original repo link without html - https://github.com/lax1dude/eaglercraft
+To select text for copying, hold shift, and then click and drag.
 
-|||NOW UPDATED TO 1.8!!!!!
+## How do I customize the server name?
+Go into the `web/` folder and click on the [eaglercraft_opts.js](web/eaglercraft_opts.js) file. Everything from default language, to default servers (and names!), to website title and icon, to default server to join on page load; can all be customized in this file.
 
+## How do I make custom textures?
+With our new-and-improved **EagTek:tm:** 2.0 technology, you can now use vanilla 1.8 resource packs in your client. *(Alternatively, to change the default textures, and without using server resource packs (which also work :D), you can still customize the .epk file using my [web-based tool](https://ayunami2000.github.io/ayunWebEPK))*
 
-ps: thanks to all of you for forking my repo, it makes me happy and proud. ive never had these many people look at my repos :)
+## How do I keep people from logging in as me?
+Use a plugin like [AuthMeReloaded](https://github.com/AuthMe/AuthMeReloaded/releases) to secure your and your player's accounts. **Note: For this to be usable, you must set `maxRegPerIp` to `0`.**
+
+## Where can I find plugins?
+- [Spigot Plugins](https://www.spigotmc.org/resources/categories/spigot.4/)
+- [Bukkit Plugins](https://dev.bukkit.org/bukkit-plugins)
+- [Cuberite Plugins](https://plugins.cuberite.org)
+
+## How do I change server software?
+Included is a convenient little script that allows you to switch server software. Simply go to the **Shell** tab and type `./selsrv.sh`. Then, select one of the server software choices, and it will be applied! **NOTICE: Ensure you have stopped your server before running this script.**
+
+## I'm having another issue.
+Join the community-powered [Eaglercraft subreddit](https://www.reddit.com/r/eaglercraft/) to report it! **Be sure to read through other posts to see if it has already been reported, and, rather than reposting it, upvote the other post instead!**
+
+## Can I DM you?
+No.
+
+## Where is singleplayer?
+Don't get your hopes up; it's probably not gonna happen.
+
+## Mods?
+Do it yourself; they will not be provided.
+
+## Can you join my server?
+No.
+
+## *Did* you join my server?
+Probably not, it was probably someone pretending to be me.
+
+## What if I don't want the client, and only the server?
+Someone else will make that I'm sure. You can also go put it on the subreddit and if it gets enough upvotes I'll make an official one.
+
+---
+
+This amazing cool and very awesome Replit was created by yours truly **ayunami2000**. You can find me over on [GitHub](https://github.com/ayunami2000) or on my [website](https://ayunami2000.github.io).
